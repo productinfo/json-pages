@@ -29,17 +29,17 @@ similar to a mustache template.
 
 ```html
 	<h1>{{title}}</h1>
-``` 
+```
 
 ## Example:
-
-```/index.js
+/index.js:
+```js
 	var jsonPages = require('json-pages')
 
 	app.use('/books', jsonPages('./booksFolder', 'id'));
 ```
-
-```/bookFolder/books.json
+/bookFolder/books.json:
+```json
     {
         "id": "CGVDDwAAQBAJ",
         "title": "Where the Crawdads Sing",
@@ -48,8 +48,8 @@ similar to a mustache template.
         "category": "Fiction"
     }
 ```
-
-```/bookFolder/book.html
+/bookFolder/book.html
+```html
 	<body>
 		<h1>{{title}}</h1>
 		<img src={{image}} alt="..."/>
