@@ -1,0 +1,15 @@
+{
+  "name": "json-pages",
+  "version": "1.0.0",
+  "description": "Middleware that makes turning JSON objects into HTML pages and quick and effortless.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joao Schapke",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^7.1.3",
+    "glob-promise": "^3.4.0"
+  }
+}
