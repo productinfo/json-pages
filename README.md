@@ -1,6 +1,6 @@
 # json-pages
 
-Middleware for express that injects JSON objects into a html template and serves the resulting pages.
+Middleware for express that injects JSON into a html template and serves the web page on the server.
 
 ## Instalation
 
@@ -46,7 +46,10 @@ similar to a mustache template.
         "authors": "Delia Owens",
         "image": "http://image.com/dslfjdsklfj",
         "category": "Fiction"
-    }
+    },
+	{
+		...
+	},
 ```
 /bookFolder/book.html
 ```html
